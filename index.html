@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cesium效果示例</title>
+    <script src="./node_modules/cesium/Build/Cesium/Cesium.js"></script>
+    <link rel="stylesheet" href="./node_modules/cesium/Build/Cesium/Widgets/widgets.css">
+    <script src="./src/libs/effect.js"></script>
+    <script src="./src/libs/waterWave.js"></script>
+    <script src="./src/libs/wave.js"></script>
+    <script src="./src/index.js" type="module"></script>
+    <!-- 罗盘 -->
+    <!-- <script src="./src/libs/cesium-navigation/Source/CesiumNavigation.js"></script> -->
+    <!-- 雷达平扫效果 -->
+    <script src="./src/libs/circleFlag.js"></script>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0%;
+    }
+
+    html,
+    body,
+    #cesium-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .pop-up {
+        position: fixed;
+        left: 990px;
+        top: 140px;
+    }
+
+    .line {
+        position: absolute;
+        left: 0;
+        width: 0;
+        height: 100px;
+        bottom: 0;
+        background-image: url('./src/images/line.png');
+    }
+
+    .text-content {
+        position: absolute;
+        top: 0;
+        left: 50px;
+        right: 0;
+        bottom: 100px;
+        background-image: url('./src/images/layer_border.png');
+        background-size: 100% 100%;
+        color: white;
+        padding: 20px 5px 5px 20px;
+        font-size: 14px;
+        user-select: text;
+        pointer-events: auto;
+        opacity: 0;
+    }
+
+    #canvas-a,
+    #canvas-b,
+    #canvas-c {
+        display: none;
+    }
+</style>
+
+<body>
+    <div id="cesium-container"></div>
+    <!-- 气泡弹窗 -->
+    <!-- <div class="pop-up" id="pop-up">
+        <div class="line"></div>
+        <div class="text-content">hello world</div>
+    </div> -->
+</body>
+
+</html>

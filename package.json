@@ -1,0 +1,22 @@
+{
+  "name": "cesium-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./index.html",
+    "build": "parcel build ./index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-umd": "^7.18.6",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "@znemz/cesium-navigation": "^4.0.0",
+    "cesium": "^1.95.0",
+    "cesium-navigation-es6": "^3.0.8",
+    "cesium-popup-es6": "^0.26.0"
+  }
+}
