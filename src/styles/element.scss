@@ -1,0 +1,31 @@
+@import url('./light.scss');
+
+.el-menu-item {
+    padding: .75rem 1rem;
+
+    &:hover {
+        min-width: 100%;
+        background-color: var(--sidebar-menu-hover-color);
+        transition: all .2s;
+        transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+        border-right: 5px solid var(--sidebar-menu-active-color);
+    }
+}
+
+.el-menu-item.is-active {
+    background-color: var(--sidebar-men-active-bgColor);
+    color: var(--sidebar-men-active-fontColor);
+    margin-left: 10px;
+    transition: all .38s;
+    transition-timing-function: cubic-bezier(0.4, 0.21, 0.8, 0.53);
+}
+.el-popper.is-light{
+    background-color: var(--sidebar-menu-hover-color);
+}
+.el-card__body{
+    padding: 0;
+}
+.el-card{
+    --el-card-border-color: transparent;
+    --el-card-bg-color: transparent; 
+}

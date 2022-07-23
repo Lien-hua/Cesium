@@ -1,0 +1,15 @@
+// 日间模式配色
+/**
+#3B8BC4  --- //#FF7AC6;
+hsl(326 100% 74%)
+*/
+:root{
+    --sidebar-title-color: black;
+    --default-color: #F8F8F2;
+    --sidebar-menu-active-color:  #3ABFF8;
+    --default-bgcolor: #252732E6;
+    --sidebar-menu-hover-color: #414558;
+
+    --sidebar-men-active-bgColor: hsl(198 93% 60%);
+    --sidebar-men-active-fontColor: hsl(198 100% 12%);
+}

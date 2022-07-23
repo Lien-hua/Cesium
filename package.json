@@ -1,0 +1,29 @@
+{
+  "name": "cesium-vue",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.6",
+    "ant-design-vue": "^3.2.10",
+    "axios": "^0.27.2",
+    "cesium": "^1.95.0",
+    "element-plus": "^2.2.9",
+    "fast-glob": "^3.2.11",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.2",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.1",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "sass": "^1.53.0",
+    "vite": "^3.0.1",
+    "vite-plugin-cesium": "^1.2.19",
+    "vite-plugin-svg-icons": "^2.0.1"
+  }
+}
