@@ -1,4 +1,22 @@
 
+/**
+ * // let circleWave = new CircleWave(
+//     viewer,
+//     "circleWave",
+//     '#1FA8E3',
+//     10,
+//     100,
+//     100,
+//     pointEntity,
+//     new Cesium.TimeIntervalCollection([
+//         new Cesium.TimeInterval({
+//             start: start,
+//             stop: stop,
+//         }),
+//     ]),
+//     8
+// );
+ */
 class CircleWave extends Effect {
     count;
     list = [];

@@ -17,6 +17,9 @@
     "@znemz/cesium-navigation": "^4.0.0",
     "cesium": "^1.95.0",
     "cesium-navigation-es6": "^3.0.8",
-    "cesium-popup-es6": "^0.26.0"
+    "cesium-popup-es6": "^0.26.0",
+    "lodash": "^4.17.21",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
   }
 }
