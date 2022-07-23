@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Cesium
-Cesium自写效果
-1、波纹动态变化  waveCircle.js
-=======
+
 # cesium-vue
 
 This template should help get you started developing with Vue 3 in Vite.
